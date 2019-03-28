@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "PushNotifications",
+  "bundledWebRuntime": false,
+  "webDir": "www",
+  "server": {
+    "url": "http://10.0.91.109:8100"
+  }
+}

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+    	Ionic - Capacitor
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-button expand="full"  (click)="requestPermission()">
+      <ion-ripple-effect></ion-ripple-effect>
+      <ion-icon name="logo-facebook"></ion-icon>
+      &nbsp; Habilitar Notificaciones Push
+    </ion-button>
+    <p>{{token}}</p>
+</ion-content>
